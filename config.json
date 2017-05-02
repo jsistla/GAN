@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "gan_2D",
+    "weight_decay": 0.004,
+    "input_shape": [1, 28, 28],
+    "decay": 0.0,
+    "dropout": 0.5,
+    "generator": {
+      "lr": 1e-3,
+      "beta_1": 0.5,
+      "nb_latent": 100,
+      "nb_kers": 32
+    },
+    "discriminator": {
+      "lr": 1e-5,
+      "beta_1": 0.5,
+      "nb_kers": 64
+    }
+  },
+  "experiment": {
+    "name": "exp6",
+    "dataset": "mnist",
+    "outdir": "/usr/local/data/tnair/projects/deep_generation/expts/gan_2D/",
+    "nb_epochs": 6000,
+    "nb_z_samples": 64,
+    "nb_discriminator_steps_per_epoch": 1
+  }
+}
