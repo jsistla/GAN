@@ -5,4 +5,5 @@ Usage:
 python gan2d_train.py -j config.json
 
 Training GIF:
-![Alt text](https://github.com/tanyanair/GAN/readme_objs/mnist_training.gif?raw=true "MNIST Training")
+
+![Alt text](https://github.com/tanyanair/GAN/blob/master/readme_objs/mnist_training.gif?raw=True "MNIST Training")
